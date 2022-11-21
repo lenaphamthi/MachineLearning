@@ -30,8 +30,6 @@ def crossValScore(model, X_train, y_train, cv=10, scoring='accuracy'):
     return scores
 
 def main():
-    #Bước 1: Đọc dữ liệu
-    FOLDER = r"D:\Học Kì 1 - Năm 2\Học máy 1\Baitap\Model Selection\Validation\BTKN4-2"
     X, y = readData('ex2data2.txt')
 
     #Bước 2: Phân chia train - test theo tỉ lệ 70% - 30%
